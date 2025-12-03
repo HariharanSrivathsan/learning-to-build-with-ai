@@ -9,7 +9,7 @@ knowMoreBtn.addEventListener('click', function() {
     // Set the text content to display
     message.textContent = 'Hello AI, I am learning you more and more';
 
-    // Remove the 'hidden' class to make the message visible
-    // The CSS animation will handle the smooth appearance
-    message.classList.remove('hidden');
+    // Toggle the 'hidden' class to show/hide the message
+    // Each click will alternate between showing and hiding the text
+    message.classList.toggle('hidden');
 });
